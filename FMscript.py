@@ -3,7 +3,7 @@ from player import Player
  
 
 #carico le previsioni
-playersFile = urllib.request.urlopen("https://raw.github.com/legard9/FantaMasterchef2018-2019/master/players.txt")
+playersFile = urllib.request.urlopen("https://raw.github.com/legard9/FantaMasterchef_2018-2019/master/players.txt")
 
 players = []; playerName = None; bet = []; exits = []
 
@@ -21,7 +21,7 @@ for line in playersFile:
         bet.append(line.rstrip().lower())
 
 #carico gli usciti
-usciteFile = urllib.request.urlopen("https://raw.github.com/legard9/FantaMasterchef2018-2019/master/uscite.txt")
+usciteFile = urllib.request.urlopen("https://raw.github.com/legard9/FantaMasterchef_2018-2019/master/uscite.txt")
 for uscito in usciteFile:
     uscito = uscito.decode('utf-8').rstrip()
     if uscito != '':
