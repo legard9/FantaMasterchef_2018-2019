@@ -1,2 +1,1 @@
-# FantaMasterchef_2018-2019
-Script per giocare al fantamsterchef
+Script per fare il fantamasterchef della stagione 2018/2019
