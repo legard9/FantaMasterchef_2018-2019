@@ -43,12 +43,14 @@ while True:
         print("\nClassifica: \n")
         for player in players:
             print(player.name, " -> ", player.points)
+
     elif selection == '2':
         print("\nUscite: \n")
         i = 1
         for uscito in exits:
             print(i, ")", uscito)
             i += 1
+            
     elif selection == '3':
         print("\nPartecipanti: \n")
         for player in players:
